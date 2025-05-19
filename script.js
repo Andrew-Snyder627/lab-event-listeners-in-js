@@ -50,15 +50,15 @@ function displayUserInput() {
 // Attach event listener to change background color when the button is clicked
 document
   .getElementById('changeColorButton')
-  .addEventListener('click', changeBackgroundColor)
+  .addEventListener('click', changeBackgroundColor);
 
 // Attach event listener to reset background color when the body is double-clicked
 document
   .getElementById('resetColorButton')
-  .addEventListener('dblclick', resetBackgroundColor)
+  .addEventListener('dblclick', resetBackgroundColor);
 
 // Attach event listener to display key pressed when a key is pressed down
-document.addEventListener('keydown', displayKeyPress)
+document.addEventListener('keydown', displayKeyPress);
 
 // Attach event listener to display user input in real-time as they type
-document.getElementById('textInput').addEventListener('input', displayUserInput)
+document.getElementById('textInput').addEventListener('input', displayUserInput);
